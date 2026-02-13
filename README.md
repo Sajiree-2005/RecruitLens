@@ -147,12 +147,16 @@ No backend. No database. Fully client-executed.
 ```bash
 git clone <your-repo-url>
 cd <project-name>
-
+```
 ### 2️⃣ Install dependencies
+```bash
 npm install
-
+```
 ### 3️⃣ Run development server
+```bash
 npm run dev
-
+```
 ## 4️⃣ Build for production
+```bash
 npm run build
+```
