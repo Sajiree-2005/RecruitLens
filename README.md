@@ -7,6 +7,11 @@ RecruitLens analyzes GitHub portfolios the way recruiters actually evaluate them
 
 It transforms a GitHub profile into structured, recruiter-ready insights.
 
+
+## 🎥 5-Minute Demo
+
+<video src="./assets/demo.mp4" controls width="800"></video>
+
 ---
 
 ## 🔍 Problem
