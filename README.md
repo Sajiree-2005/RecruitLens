@@ -1,27 +1,29 @@
-# 🚀 GitHub Portfolio Signal Analyzer  
-### AI-Inspired Recruiter Signal Engine (Client-Side)
+# 🚀 RecruitLens  
+### GitHub Recruiter Signal Engine
 
-A fully client-side GitHub profile intelligence platform that simulates how recruiters evaluate developer portfolios.
+🌐 **Live Demo:** https://recruit-lens.vercel.app/
 
-This application analyzes public GitHub profiles using a multi-dimensional signal scoring engine, README quality heuristics, recruiter simulation modes, and career path alignment insights — all without any backend.
+RecruitLens analyzes GitHub portfolios the way recruiters actually evaluate them — using multi-dimensional signal scoring, README intelligence, and hiring simulation modes.
+
+It transforms a GitHub profile into structured, recruiter-ready insights.
 
 ---
 
 ## 🔍 Problem
 
-Recruiters don’t read every line of your code.
+Recruiters don’t read every line of code.
 
-They scan for **signals**:
-- Project depth
-- Documentation quality
-- Engineering maturity
-- Consistency
-- Ownership
-- Impact
+They scan for signals:
+- Project depth  
+- Documentation quality  
+- Engineering maturity  
+- Consistency  
+- Ownership  
+- Impact  
 
-Most developers don’t know how their GitHub actually looks to hiring managers.
+Most developers don’t know how their GitHub appears from a hiring perspective.
 
-This tool makes those signals visible.
+RecruitLens makes those signals visible and actionable.
 
 ---
 
@@ -29,7 +31,7 @@ This tool makes those signals visible.
 
 ### 🧮 1. 9-Dimension Signal Scoring Engine
 
-Transparent weighted scoring across:
+Weighted scoring across:
 
 - Profile Completeness  
 - Repository Quality  
@@ -41,13 +43,13 @@ Transparent weighted scoring across:
 - Engineering Maturity  
 - Impact Score  
 
-Each dimension contributes to a final Recruiter Signal Score.
+Each dimension contributes transparently to a final Recruiter Signal Score.
 
 ---
 
-### 📄 2. README Quality Analyzer (Heuristic-Based)
+### 📄 2. README Quality Analyzer
 
-Fetches README files from top repositories via GitHub API and evaluates:
+Fetches README files from top repositories via the GitHub API and evaluates:
 
 - Installation instructions  
 - Usage examples  
@@ -58,28 +60,25 @@ Fetches README files from top repositories via GitHub API and evaluates:
 - Contributing guidelines  
 - License presence  
 
-Each README is scored (0–100) with missing elements clearly listed.
+Each README is scored (0–100) with missing elements clearly identified.
 
 ---
 
 ### 🏢 3. Recruiter Simulation Mode
 
-Simulates evaluation styles of different hiring environments:
+Simulates different hiring environments:
 
-- **Startup Mode** – Shipping speed, deployment signals, ownership  
-- **Enterprise Mode** – Testing, documentation, licenses, PR structure  
+- **Startup Mode** – Shipping speed, ownership, deployments  
+- **Enterprise Mode** – Testing, documentation, licensing, PR structure  
 - **AI/ML Mode** – Python repos, ML keywords, research signals  
 
-Each mode highlights:
-- Strengths  
-- Concerns  
-- Hiring readiness  
+Each mode highlights strengths, concerns, and hiring readiness.
 
 ---
 
 ### 🎯 4. Career Path Alignment
 
-Analyzes readiness for:
+Evaluates readiness for:
 
 - Frontend Engineer  
 - Backend Engineer  
@@ -87,13 +86,13 @@ Analyzes readiness for:
 - DevOps Engineer  
 - ML Engineer  
 
-Provides strengths, gaps, and actionable improvements.
+Provides a breakdown of strengths and improvement areas.
 
 ---
 
 ### 📊 5. Radar Skill Visualization
 
-9-axis SVG radar chart to visually represent portfolio signal depth.
+Interactive 9-axis radar chart representing portfolio signal depth.
 
 ---
 
@@ -110,20 +109,22 @@ Detects:
 
 ### 📈 7. Before vs After Simulator
 
-Shows projected score increases for specific improvements:
+Shows projected score increases for actions like:
 
-- “Add READMEs → +9 pts”  
-- “Add tests → +6 pts”  
-- “Improve documentation → +12 pts”  
+- Adding detailed READMEs  
+- Writing tests  
+- Improving documentation  
+- Increasing commit consistency  
 
 ---
 
 ### 🛠 8. Tactical Roadmap
 
-Recommendations sorted by:
+Actionable recommendations sorted by:
+
 - Estimated score impact  
-- Effort vs reward  
 - Recruiter perception gain  
+- Effort vs reward  
 
 ---
 
@@ -134,29 +135,65 @@ Recommendations sorted by:
 - Vite  
 - Tailwind CSS  
 - shadcn/ui  
-- GitHub REST API (client-side fetch)
+- GitHub REST API (client-side)
 
-No backend. No database. Fully client-executed.
+No backend. Fully client-side architecture.
 
 ---
 
 ## 🚀 Getting Started
 
-### 1️⃣ Clone the repository
+### Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd <project-name>
+git clone https://github.com/your-username/recruitlens.git
+cd recruitlens
 ```
-### 2️⃣ Install dependencies
+
+### Install dependencies
+
 ```bash
 npm install
 ```
-### 3️⃣ Run development server
+
+### Run development server
+
 ```bash
 npm run dev
 ```
-## 4️⃣ Build for production
+
+### Build for production
+
 ```bash
 npm run build
 ```
+
+---
+
+## 🌍 Deployment
+
+RecruitLens is deployed on Vercel:
+
+https://recruit-lens.vercel.app/
+
+---
+
+## 🎯 Ideal Use Cases
+
+- Hackathon demonstrations  
+- Developer portfolio audits  
+- Career readiness evaluation  
+- Resume optimization strategy  
+- GitHub improvement workshops  
+
+---
+
+## 📌 Design Philosophy
+
+- Transparent scoring logic  
+- Recruiter-centric thinking  
+- Actionable insights over vague ratings  
+- Zero black-box AI claims  
+- Fully inspectable client-side logic  
+
+---
