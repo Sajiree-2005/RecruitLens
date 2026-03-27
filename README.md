@@ -13,10 +13,8 @@ Turn GitHub into Recruiter Signals.
 
 ## 🎥 5-Minute Hackathon Demo
 
-👉 Watch the full demo here:  
-https://youtu.be/mXXiPWXfBng
-
-[![RecruitLens Demo](https://img.youtube.com/vi/mXXiPWXfBng/maxresdefault.jpg)](https://youtu.be/mXXiPWXfBng)
+👉 Watch the full demo here: 
+[RecruitLens Demo](https://youtu.be/mXXiPWXfBng)
 
 ## 🚀 Live Application
 https://recruit-lens.vercel.app/
