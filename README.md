@@ -158,7 +158,7 @@ No backend. Fully client-side architecture.
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/recruitlens.git
+git clone https://github.com/Sajiree-2005/recruitlens.git
 cd recruitlens
 ```
 
